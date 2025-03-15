@@ -1,0 +1,10 @@
+John,Doe,MTH,4
+Alice,Smith,ENG,3
+Robert,Johnson,SCI,5
+Emily,Williams,HIS,2
+Michael,Brown,GEO,4
+Sophia,Jones,PHY,1
+Daniel,Miller,CHM,5
+Olivia,Davis,BIO,3
+Matthew,Garcia,ART,2
+Emma,Martinez,MUS,4
