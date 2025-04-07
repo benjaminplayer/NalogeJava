@@ -1,8 +1,8 @@
 public class Naloga17 {
-    public static void main(String[] args) {
-        byte[] arr = new byte[10000];
-        byte[] arr1 = new byte[10000];
-        byte[] arr2 = new byte[10000];
+   public static void main(String[] args) {
+        byte[] arr = new byte[100000];
+        byte[] arr1 = new byte[100000];
+        byte[] arr2 = new byte[100000];
         long startTime;
 
         arr = fill(arr);
@@ -16,11 +16,11 @@ public class Naloga17 {
         System.out.println("Time: " + (System.currentTimeMillis() - startTime) + "ms");
 
         startTime = System.currentTimeMillis();
-        urejanjeVstavljanje(arr1);
+        uredi_z_izbiranjem(arr1);
         System.out.println("Time: " + (System.currentTimeMillis() - startTime) + "ms");
 
         startTime = System.currentTimeMillis();
-        urejanjeVstavljanje(arr2);
+        bubbleSort(arr2);
         System.out.println("Time: " + (System.currentTimeMillis() - startTime) + "ms");
 
 
@@ -32,11 +32,11 @@ public class Naloga17 {
         System.out.println("Time: " + (System.currentTimeMillis() - startTime) + "ms");
 
         startTime = System.currentTimeMillis();
-        urejanjeVstavljanje(arr1);
+        uredi_z_izbiranjem(arr1);
         System.out.println("Time: " + (System.currentTimeMillis() - startTime) + "ms");
 
         startTime = System.currentTimeMillis();
-        urejanjeVstavljanje(arr2);
+        bubbleSort(arr2);
         System.out.println("Time: " + (System.currentTimeMillis() - startTime) + "ms");
 
 
@@ -48,11 +48,11 @@ public class Naloga17 {
         System.out.println("Time: " + (System.currentTimeMillis() - startTime) + "ms");
 
         startTime = System.currentTimeMillis();
-        urejanjeVstavljanjeI(arr1);
+        uredi_z_izbiranjemI(arr1);
         System.out.println("Time: " + (System.currentTimeMillis() - startTime) + "ms");
 
         startTime = System.currentTimeMillis();
-        urejanjeVstavljanjeI(arr2);
+        bubbleSortI(arr2);
         System.out.println("Time: " + (System.currentTimeMillis() - startTime) + "ms");
 
     }
