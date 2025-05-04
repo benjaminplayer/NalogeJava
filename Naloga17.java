@@ -44,15 +44,15 @@ public class Naloga17 {
         System.out.println("Ze urejeni v reverse");
 
         startTime = System.currentTimeMillis();
-        urejanjeVstavljanjeI(arr);
+        urejanjeVstavljanjeDesc(arr);
         System.out.println("Time: " + (System.currentTimeMillis() - startTime) + "ms");
 
         startTime = System.currentTimeMillis();
-        uredi_z_izbiranjemI(arr1);
+        uredi_z_izbiranjemDesc(arr1);
         System.out.println("Time: " + (System.currentTimeMillis() - startTime) + "ms");
 
         startTime = System.currentTimeMillis();
-        bubbleSortI(arr2);
+        bubbleSortDesc(arr2);
         System.out.println("Time: " + (System.currentTimeMillis() - startTime) + "ms");
 
     }
@@ -101,7 +101,7 @@ public class Naloga17 {
                 }
     }
 
-    public static void urejanjeVstavljanjeI(byte[] a) {
+    public static void urejanjeVstavljanjeDesc(byte[] a) {
         int i, j;
         byte x;
         for (i = 1; i < a.length; i++) {
@@ -117,7 +117,7 @@ public class Naloga17 {
         }
     }
 
-    public static void uredi_z_izbiranjemI(byte[] a) {
+    public static void uredi_z_izbiranjemDesc(byte[] a) {
         int j;
         byte t;
         for (int i = 0; i < a.length - 1; i = i + 1) {
@@ -133,7 +133,7 @@ public class Naloga17 {
         }
     }
 
-    public static void bubbleSortI(byte[] a) {
+    public static void bubbleSortDesc(byte[] a) {
         int i, j;
         byte x;
         for (i = 1; i < a.length; ++i)
